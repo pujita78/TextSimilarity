@@ -79,3 +79,17 @@ Cosine Similarity metric measures the similarity between two non-zero vectors us
 #### Jaccard Similarity
 
 Jaccard Similarity metric measures the similarity between two non-zero vectors using the size of intersection of two sets and the size of union of two sets.
+
+#### Docker Commands on docker console
+``` For building docker image
+docker build -t pujita78/text_similarity .
+```
+```Push Docker Image
+docker push pujita78/text_similarity
+```
+``` Pulling Docker image on any docker compatible vm or laptop or image
+docker pull pujita78/text_similarity:latest
+```
+```To run application
+docker run --name text_similarity -d -p 7000:7000 pujita78/text_similarity
+```
