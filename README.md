@@ -9,7 +9,7 @@ Given two texts, the app computes the similarity score or percentage between the
 
 ```bash
 $ git clone <git-package-name>
-$ cd DocTextSimilarity
+$ cd TextSimilarity
 ```
 
 
